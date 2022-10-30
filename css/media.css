@@ -1,0 +1,37 @@
+@media screen and (max-width: 575.98px) 
+{
+
+    .aboutme ,.skils{
+        text-align: left;
+        margin-left: 0;
+    }
+ .card{
+     margin-left: 75px;
+
+ }
+.prtofilo-icon {
+
+    margin-right: 80px;
+}
+.protfilo-caption{
+    margin-left: 50px;
+}
+
+.card-footer{
+    margin-left: 74px;
+    margin-bottom: 10px;
+}
+
+.contact{
+   height: 1010px;
+  
+    
+  }
+  .contact-layer{
+    height: 1010px;
+  }
+    
+  
+  }
+
+ 

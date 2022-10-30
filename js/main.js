@@ -97,7 +97,7 @@ if(container[i].classList.contains("logInPage")) {
                 responseMsg = 1;
                 localStorage.setItem("Counter", responseMsg);
 
-                logInBtn.setAttribute("href", "index.html");
+                logInBtn.setAttribute("href", "home.html");
             }
             else
             {
@@ -234,7 +234,7 @@ if(container[i].classList.contains("logInPage")) {
                 You can log in to your accont now
                 </p>
                 <div>
-                <a id="goToLoginBtn" type="button" class="btn" href="signin.html">Go to login page</a>
+                <a id="goToLoginBtn" type="button" class="btn" href="index.html">Go to login page</a>
                 </div>`;
 
             } else {
@@ -261,7 +261,7 @@ if(container[i].classList.contains("logInPage")) {
                                 You can log in to your accont now
                                 </p>
                                 <div>
-                                <a id="goToLoginBtn" type="button" class="btn" href="signin.html">Go to login page</a>
+                                <a id="goToLoginBtn" type="button" class="btn" href="index.html">Go to login page</a>
                                 </div>`
                                 ;
                     
@@ -295,7 +295,7 @@ if(container[i].classList.contains("logInPage")) {
 
         //WELCOME PAGE:
         function logOut() {
-            logOutBtn.setAttribute("href", "signin.html");
+            logOutBtn.setAttribute("href", "index.html");
             welcomeMsg.innerHTML = ""; 
         }
 
